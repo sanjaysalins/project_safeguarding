@@ -47,15 +47,22 @@
   color: var(--dl-color-scheme-green80);
   margin-right: var(--dl-space-space-twounits);
 }
+.login-navlink1 {
+  color: var(--dl-color-scheme-green80);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Titillium Web";
+  font-weight: 600;
+  line-height: 1.5;
+  margin-right: var(--dl-space-space-twounits);
+  text-transform: none;
+  text-decoration: none;
+}
 .login-text03 {
   color: var(--dl-color-scheme-green80);
   margin-right: var(--dl-space-space-twounits);
 }
-.login-text04 {
-  color: var(--dl-color-scheme-green80);
-  margin-right: var(--dl-space-space-twounits);
-}
-.login-navlink1 {
+.login-navlink2 {
   text-decoration: none;
 }
 .login-burger-menu {
@@ -103,7 +110,7 @@
   object-fit: cover;
   margin-right: 14px;
 }
-.login-text06 {
+.login-text05 {
   color: var(--dl-color-scheme-orange100);
 }
 .login-close-menu {
@@ -122,6 +129,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.login-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .login-text08 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -132,9 +142,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-text11 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text12 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-buttons {
@@ -205,14 +212,14 @@
   align-items: center;
   flex-direction: column;
 }
-.login-text13 {
+.login-text12 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   align-self: stretch;
   text-align: center;
   line-height: 120.00000476837158%;
 }
-.login-text15 {
+.login-text14 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   align-self: stretch;
@@ -253,7 +260,7 @@
   border-width: 1px;
   background-color: rgba(255, 255, 255, 1);
 }
-.login-text17 {
+.login-text16 {
   color: rgba(102, 102, 102, 1);
   height: auto;
   flex-grow: 1;
@@ -279,7 +286,7 @@
   border-width: 1px;
   background-color: rgba(255, 255, 255, 1);
 }
-.login-text19 {
+.login-text18 {
   color: rgba(102, 102, 102, 1);
   height: auto;
   flex-grow: 1;
@@ -306,7 +313,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 1);
 }
-.login-text21 {
+.login-text20 {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
@@ -347,7 +354,7 @@
   width: 24px;
   height: 24px;
 }
-.login-text23 {
+.login-text22 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 16px;
@@ -376,7 +383,7 @@
   width: 24px;
   height: 24px;
 }
-.login-text25 {
+.login-text24 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 16px;
@@ -405,7 +412,7 @@
   width: 24px;
   height: 24px;
 }
-.login-text27 {
+.login-text26 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 16px;
@@ -417,7 +424,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.login-text29 {
+.login-text28 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   text-align: center;
@@ -449,19 +456,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.login-text31 {
+.login-text30 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.login-text31 {
+  margin-bottom: var(--dl-space-space-unit);
 }
 .login-text32 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.login-text33 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text35 {
+.login-text34 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.login-text35 {
+  margin-bottom: var(--dl-space-space-unit);
 }
 .login-text36 {
   margin-bottom: var(--dl-space-space-unit);
@@ -475,12 +485,12 @@
 .login-text39 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.login-text40 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text42 {
+.login-text41 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.login-text42 {
+  margin-bottom: var(--dl-space-space-unit);
 }
 .login-text43 {
   margin-bottom: var(--dl-space-space-unit);
@@ -492,9 +502,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-text46 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text47 {
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
@@ -539,7 +546,11 @@
     align-items: center;
     justify-content: center;
   }
+  .login-text07 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .login-text08 {
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .login-text09 {
@@ -551,10 +562,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .login-text11 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .login-text12 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

@@ -13,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2fs3lnnWMAIb1SNakEqUKMe5ckS" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -24,6 +24,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.login.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/home/salinss/devtools/project_safeguarding/website",
     "node.js.detected.package.eslint": "true",
@@ -64,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714576111641</updated>
-      <workItem from="1714576112749" duration="1232000" />
+      <workItem from="1714576112749" duration="1552000" />
     </task>
     <servers />
   </component>
